@@ -113,7 +113,7 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.SessionAuthentication',
-        'control_escolar_desit_api.models.BearerTokenAuthentication',
+        'dev_sistema_escolar_api.models.BearerTokenAuthentication',
     ),
     'DEFAULT_FILTER_BACKENDS': (
         'django_filters.rest_framework.DjangoFilterBackend',
